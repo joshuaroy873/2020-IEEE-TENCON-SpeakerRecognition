@@ -1,14 +1,28 @@
-# speaker_recognition
-47 Speakers Data for Training and Testing the Model.
+# 2020-IEEE-TENCON-SpeakerRecognition
 
-Each speech file is about 3-5 seconds long.
+Dataset for text‑independent speaker recognition (47 speakers). Each recording is ~3–5 seconds.
 
-The data recorded is by different individuals, using different devices, in different environments, from various locations in India. Proper care was taken to ensure that no recording devices had noise reduction process in-built in the device itself.
+## Dataset
+- Total speakers: 47
+- Recordings per speaker: multiple short utterances (3–5 s each)
+- Utterance types:
+  - Same Utterance 1: "Library Access"
+  - Same Utterance 2: "Library Access"
+  - Different Utterance: random words (speaker-specific)
+- Recording conditions: different devices, environments and locations across India. Care taken to avoid devices with built‑in noise reduction.
 
-Same Utterance 1: Contains the speech "Library Access".
+## Citation
+If you use this dataset or follow the preprocessing/evaluation approach described alongside it, please cite:
 
-Same Utterance 2: Contains the speech "Library Access".
+```bibtex
+@inproceedings{palathinkal2020impact,
+  title={Impact of pre-processing on the performance of text-independent speaker recognition system},
+  author={Palathinkal, Joshua Roy and Sekhar, Vaddi Chandra},
+  booktitle={2020 IEEE REGION 10 CONFERENCE (TENCON)},
+  pages={1227--1232},
+  year={2020},
+  organization={IEEE}
+}
+```
 
-Different Utterance: Contains some random words.
-
-Documentation: https://ieeexplore.ieee.org/abstract/document/9293842
+Reference / DOI / publisher page: https://ieeexplore.ieee.org/abstract/document/9293842
